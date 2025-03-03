@@ -124,11 +124,11 @@ cursor: pointer;
     /* Frame 13 */
 /* Frame 13 */
 position: absolute;
-width: 1140px;
-height: 1903px;
+width: 1140px; 
+ height: 2050px;
 left: 148px;
 right: 152px;
-top: 857px;
+top: 330px;
 bottom: 2995px;
 /* Auto layout */
 display: flex;
@@ -139,12 +139,12 @@ gap: 10;
 padding: 0px 57px 0px 57px;
 border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.02);
+background: #37926505;
 
 
 }
 .frame12{
-    /* Frame 12 */
+  /* Frame 12 */
 position: static;
 width: 946px;
 height: 1233px;
@@ -161,7 +161,28 @@ padding: 0px;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 0px 10px;
+margin: 0px 10px;  
+}
+.frame11{
+    /* Frame 11 */
+position: static;
+width: 946px;
+height: 1072px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
 }
 .frame5{
     /* Frame 5 */
