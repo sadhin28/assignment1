@@ -156,9 +156,10 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 }
- .hero-container a {
+.hero-container  .hero-button , a {
   text-decoration: none;
-  
+  cursor:pointer;
+ }
 
 
 .hero-button{
@@ -170,7 +171,6 @@ text-align: center;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    cursor: pointer;
     border-radius: 8px;
 
 background: rgb(13, 19, 33);
@@ -185,6 +185,171 @@ justify-content: center;
 align-items: center;
 gap: 10;
 padding: 21px 24px 21px 24px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+    }
+
+.frame13{
+    /* Frame 13 */
+position: absolute;
+width: 1140px;
+height: 2100px;
+left: 148px;
+right: 152px;
+top: 380px;
+bottom: 2995px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+
+}
+.frame12{
+    /* Frame 12 */
+position: static;
+width: 946px;
+height: 1233px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 48;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.frame5{
+    /* Frame 5 */
+position: static;
+width: 852px;
+height: 113px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+.frame5 .dev-headin{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.frame5 .dev-paragraph{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.frame8{
+    /* Frame 8 */
+position: static;
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 48px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.frame10{
+/* Frame 10 */
+position: static;
+width: 850px;
+height: 240px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+.frame9{
+    /* Frame 9 */
+position: static;
+width: 477px;
+height: 219px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.frame7{
+    /* Frame 7 */
+position: static;
+width: 171px;
+height: 47px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 20px 12px 20px;
 
 
 /* Inside Auto Layout */
@@ -192,5 +357,49 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 32px 0px;
-    }
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.frame7 a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.frame10 .frame6{
+    /* Frame 6 */
+position: static;
+width: 477px;
+height: 140px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.frame10 .frame6 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;opacity: 0.7;
+
 }
