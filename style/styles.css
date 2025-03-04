@@ -519,15 +519,15 @@ margin: 48px 0px;
 .frame200{
   /* Frame 10 */
 position: static;
-width: 274px;
-height: 299px;
+height: 350px;
+width: 350px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content:space-between;
 align-items:flex-start;
 gap: 20;
-padding: 40px;
+padding: 20px;
 
 
 /* Inside Auto Layout */
@@ -539,13 +539,38 @@ border-radius: 16px;
 
 background: rgba(255, 76, 30, 0.05);
 }
-.terget{
-    display: flex;
-    justify-items: center;
-    justify-content: space-around;
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
+.frame200 h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.frame200 p{
+   
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
 
-background: rgb(255, 255, 255);
+}
+.frame200 a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.frame26  .next-target .terget{
+  display: flex;
+  justify-content: space-between;
 }
