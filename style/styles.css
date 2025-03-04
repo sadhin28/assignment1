@@ -678,3 +678,33 @@ letter-spacing: 0%;
 text-align: center;
 padding: 17px 20px 17px 20px;
 }
+.social-link{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.social-link-container{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+justify-content: space-between;
+margin-left: 200px;
+margin-right: 200px;
+gap: 24;
+
+}
+.social-link-container h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.social{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
