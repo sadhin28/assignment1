@@ -687,6 +687,11 @@ background: rgb(255, 255, 255);
 width: 548px;
 height: 57px;
 padding: 19px 20px 19px 20px;
+
+}
+.feedback #email:focus{
+color: blue;
+
 }
 .feedback button{
     cursor: pointer;
