@@ -57,6 +57,15 @@ opacity: 0.8;
 
 
 }
+.header-subbutton:hover{
+    
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
 .hero{
   /* Hero-bg */
 position: absolute;
@@ -119,6 +128,14 @@ opacity: 0.7;
     padding: 20px;
 background: rgb(8, 59, 179);
 cursor: pointer;
+}
+.frame4 button:hover{
+    
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
 }
 .frame13{
 width: 1140px;
@@ -287,6 +304,7 @@ margin: 0px 10px;
 position: static;
 width: 171px;
 height: 47px;
+border-radius:10px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
@@ -294,7 +312,7 @@ justify-content: center;
 align-items: center;
 gap: 10;
 padding: 12px 20px 12px 20px;
-
+background-color:whitesmoke;
 
 /* Inside Auto Layout */
 flex: none;
@@ -306,11 +324,19 @@ border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 
 }
+.frame7:hover{
+    background-color:#f70303;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(221, 8, 8);
+}
+
 .frame7 a{
     text-decoration: none;
-    color: rgb(13, 19, 33);
+    color:rgb(0, 0, 0);
 font-family: Azeret Mono;
-font-size: 15px;
+font-size: 18px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
@@ -664,11 +690,10 @@ padding: 19px 20px 19px 20px;
 }
 .feedback button{
     cursor: pointer;
-    border-radius: 8px;
+    border: none;
     background: rgb(255, 255, 255);
     border-radius: 8px;
 
-    background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
@@ -677,6 +702,7 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 padding: 17px 20px 17px 20px;
+
 }
 .social-link{
    display: flex;
@@ -714,9 +740,18 @@ text-align: center;
     align-items: flex-start;
     gap: 32;
     padding: 32px 150px 32px 150px;
-    width: 1440px;
+    width: 1205px;
 height: 50px;
 border-radius: 16px;
 
+
 background: rgba(13, 19, 33, 0.03);
+}
+.feedback button:hover{
+    
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
 }
